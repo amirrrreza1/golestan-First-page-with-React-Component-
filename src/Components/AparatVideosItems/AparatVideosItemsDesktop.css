@@ -1,0 +1,82 @@
+@media only screen and (min-width: 1000px) {
+  .AparatVideosItem {
+    width: 320px;
+    height: fit-content;
+    box-shadow: 0 0 10px #11111155;
+    .AparatVideosItem__videoFrame {
+      width: inherit;
+      height: inherit;
+      background-color: white;
+      position: relative;
+      .AparatVideosItem__time {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: #11111155;
+        padding: 4px 8px;
+        border-radius: 15px;
+        font-size: 12px;
+        color: white;
+      }
+      .AparatVideosItem__icon {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .AparatVideosItem__playButton {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 45px;
+        height: 45px;
+        background-color: #11111155;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        transition: all;
+        transition-duration: 300ms;
+        &:hover {
+          background-color: #df0e50;
+        }
+      }
+    }
+    .AparatVideosItem__description {
+      padding: 20px;
+      .AparatVideosItem__description__title {
+        font-size: 17px;
+        font-weight: bold;
+        color: red;
+        margin: 10px 0 20px 0;
+      }
+      .AparatVideosItem__description__text {
+        font-size: 14px;
+        color: #7c8187;
+        text-align: justify;
+        line-height: 28px;
+        margin-bottom: 20px;
+      }
+      .AparatVideosItem__description__button {
+        width: 130px;
+        height: 40px;
+        margin: auto;
+        cursor: pointer;
+        line-height: 40px;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid #959394;
+        transition: all;
+        transition-duration: 300ms;
+        &:hover {
+          background-color: red;
+          color: whitesmoke;
+        }
+      }
+    }
+  }
+}

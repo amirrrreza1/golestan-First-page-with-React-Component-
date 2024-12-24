@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: Sans;
+}
+body {
+  background-image: url("../../public/Images/banner.png"); 
+  background-size: cover; 
+  background-attachment: fixed; 
+  background-position: bottom; 
+  background-repeat: no-repeat; 
+}
+
+@font-face {
+  font-family: Sans;
+  src: url("../../public/Fonts/IRANSansWeb_Light.ttf");
+}

@@ -1,0 +1,39 @@
+@media only screen and (min-width: 1000px) {
+  .FooterItem {
+    width: 23%;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 10px;
+    .footerItemHR {
+      width: 200px;
+      border: 0.5px solid rgb(124, 120, 120);
+      display: inline;
+    }
+    .footerItem__title {
+      font-size: 17px;
+      font-weight: bold;
+      color: white;
+    }
+    .footerItem__texts {
+      width: 100%;
+      display: flex;
+      flex-flow: column wrap;
+      gap: 5px;
+      padding: 15px;
+      .footerItem__text {
+        width: 100%;
+        text-align: center;
+        color: #b6bebb;
+        cursor: pointer;
+        transition: all;
+        transition-duration: 200ms;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}

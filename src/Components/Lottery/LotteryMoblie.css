@@ -1,0 +1,54 @@
+@media only screen and (min-width: 340px) {
+  .lotteryWrapper {
+    width: 100%;
+    height: inherit;
+    background: linear-gradient(to top left, #E1E1E1, #EBEBEB);
+    .lottery {
+      width: 90%;
+      height: inherit;
+      margin: auto;
+      padding: 20px 0;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      .lotteryText {
+        display: flex;
+        flex-flow: column;
+        gap: 10px;
+        text-align: center;
+        .lotteryTextBlodRed {
+          color: red;
+          font-size: 28px;
+        }
+        .lotteryTextBlod {
+          color: #5f6968;
+          font-size: 18px;
+        }
+        .lotteryTextRegular {
+          color: #959394;
+          font-size: 16px;
+        }
+        .lotteryTextButton {
+          width: 130px;
+          height: 40px;
+          margin: auto;
+          cursor: pointer;
+          line-height: 40px;
+          background-color: white;
+          border-radius: 10px;
+          border: 1px solid #959394;
+          transition: all;
+          transition-duration: 300ms;
+          &:hover {
+            background-color: red;
+            color: whitesmoke;
+          }
+        }
+      }
+      .lotteryImage {
+        padding-right: 80px;
+      }
+    }
+  }
+}

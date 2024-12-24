@@ -1,0 +1,13 @@
+.Products {
+    width: 70%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ProductsItemsText{
+        text-align: center;
+        line-height: 50px;
+        border-bottom: 1px solid gray;
+    }
+  }
+

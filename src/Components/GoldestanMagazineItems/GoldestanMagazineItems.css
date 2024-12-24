@@ -1,0 +1,41 @@
+.GoldestanMagazineItems {
+  width: 320px;
+  background-color: white;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  .GoldestanMagazineItems__title {
+    color: red;
+    font-size: 20px;
+    margin: 20px 10px;
+    align-self: flex-start;
+    margin-right: 20px;
+  }
+  .GoldestanMagazineItems__text {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 16px;
+    color: #959394;
+  }
+  .GoldestanMagazineItems__button {
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    line-height: 40px;
+    margin: 20px 0 0 0;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #959394;
+    transition: all;
+    transition-duration: 300ms;
+    align-self: flex-start;
+    margin-right: 20px;
+    &:hover {
+      background-color: red;
+      color: whitesmoke;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@media only screen and (min-width: 340px) {
+  .GoldestanMagazineWrapper {
+    width: 100%;
+    height: inherit;
+    margin-top: 250px;
+    background-color: white;
+    .GoldestanMagazineWrapperText {
+      width: 80%;
+      height: 100px;
+      margin: auto;
+      color: red;
+      font-size: 27px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 100px;
+    }
+    .GoldestanMagazineWrapper__ItemsWrapper {
+      width: 100%;
+      height: inherit;
+      margin: 0 auto;
+      padding: 50px 0;
+      background-color: #cde4b0;
+      .GoldestanMagazineWrapper__Items {
+        width: 90%;
+        height: inherit;
+        margin: auto;
+        display: flex;
+        flex-flow: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
