@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://amirrrreza1.github.io/Golestan-React",
+  "homepage": "https://amirrrreza1.github.io/golestan-First-page-with-React-Component-/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
