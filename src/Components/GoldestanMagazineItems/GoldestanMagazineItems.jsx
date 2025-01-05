@@ -1,4 +1,4 @@
-import "./GoldestanMagazineItems.css"
+import "./GoldestanMagazineItems.css";
 
 const GoldestanMagazineItems = () => {
   let data = [
@@ -24,18 +24,16 @@ const GoldestanMagazineItems = () => {
       text: "احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از فهرست",
     },
   ];
-    return data.map((item) => {
-        return (
-          <>
-            <div className="GoldestanMagazineItems">
-              <img src={item.src} alt={item.alt} width="320" height="320" />
-              <div className="GoldestanMagazineItems__title">{item.title}</div>
-              <div className="GoldestanMagazineItems__text">{item.text}</div>
-              <button className="GoldestanMagazineItems__button">ادامه مطلب</button>
-            </div>
-          </>
-        );
-  })
+  return data.map((item, index) => {
+    return (
+      <div className="GoldestanMagazineItems" key={index}>
+        <img src={item.src} alt={item.alt} width="320" height="320" />
+        <div className="GoldestanMagazineItems__title">{item.title}</div>
+        <div className="GoldestanMagazineItems__text">{item.text}</div>
+        <button className="GoldestanMagazineItems__button">ادامه مطلب</button>
+      </div>
+    );
+  });
 };
 
 export default GoldestanMagazineItems;

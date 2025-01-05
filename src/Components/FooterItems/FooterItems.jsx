@@ -44,10 +44,10 @@ const FooterItems = () => {
       text5: "لوبيا سفيد گلستان​",
     },
   ];
-  return data.map((item) => {
+  return data.map((item , index) => {
     return (
-      <>
-            <div className="FooterItem">
+    
+            <div className="FooterItem" key={index}>
                 <img src={item.src} alt="footerItem1" />
                 <hr className="footerItemHR" />
                 <div className="footerItem__title">{ item.title}</div>
@@ -60,7 +60,7 @@ const FooterItems = () => {
                     <div className="footerItem__text">{ item.text5}</div>
                 </div>
         </div>
-      </>
+      
     );
   });
 };

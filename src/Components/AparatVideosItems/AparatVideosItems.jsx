@@ -30,10 +30,10 @@ const AparatVideosItems = () => {
       buttonText: "مشاهده محصولات",
     },
   ];
-  return data.map((item) => {
+  return data.map((item , index) => {
     return (
-      <>
-        <div className="AparatVideosItem">
+      
+        <div className="AparatVideosItem" key={index}>
           <div className="AparatVideosItem__videoFrame">
             <img src={item.src} alt="AparatVideo" width="320" />
             <div className="AparatVideosItem__playButton">
@@ -56,7 +56,7 @@ const AparatVideosItems = () => {
             </button>
           </div>
         </div>
-      </>
+      
     );
   });
 };

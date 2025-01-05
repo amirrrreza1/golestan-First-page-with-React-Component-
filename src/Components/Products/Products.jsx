@@ -27,16 +27,16 @@ const Products = () => {
       text: "مشتریان گلستان",
     },
   ];
-  return Products.map((item) => {
+  return Products.map((item , index) => {
     return (
-      <>
-        <div className="Products" key={item.id}>
+      
+        <div className="Products" key={index}>
           <div className="ProductsItems">
             <img src={item.src} alt={item.alt} width="180" height="180" />
             <div className="ProductsItemsText">{item.text}</div>
           </div>
         </div>
-      </>
+      
     );
   });
 };
